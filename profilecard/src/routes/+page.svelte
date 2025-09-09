@@ -28,6 +28,13 @@
       background: #F4E3E8;
       gap: 2rem;
     }
+    
+    .camera {
+    max-width: 990px;
+    height: auto;
+    border-radius: 12px;
+}
+
 
   </style>
   
