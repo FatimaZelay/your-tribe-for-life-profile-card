@@ -6,6 +6,9 @@
   };
   
 </script>
+  <main class="page">
+   <!-- Button -->
+   <AboutMeButton onClick={goToAbout} />
 
 
   <main class="page">
