@@ -14,8 +14,6 @@
        <img src="/digitalcamera.png" alt="Camera" class="camera" />
      </div>
 
-  <main class="page">
-   
   </main>
   
   <style>
@@ -30,7 +28,6 @@
       background: #F4E3E8;
       gap: 2rem;
     }
-  
 
   </style>
   
