@@ -39,3 +39,9 @@
       line-height: 1;
       color: #312c2c;
       letter-spacing: 0.02em;
+  
+      /* interactie */
+      cursor: url('/cursor.png') 0 0, auto; /*custom cursor*/
+      transition: transform 140ms ease, box-shadow 140ms ease, filter 140ms ease;
+      -webkit-tap-highlight-color: transparent;
+    }
