@@ -32,3 +32,10 @@
       box-shadow:
         0 6px 16px rgba(0, 0, 0, 0.10),
         inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  
+      /* typography */
+      font-family: "Great Vibes", ui-serif, Georgia, "Times New Roman", serif;
+      font-size: clamp(1.35rem, 2.2vw, 2rem);
+      line-height: 1;
+      color: #312c2c;
+      letter-spacing: 0.02em;
