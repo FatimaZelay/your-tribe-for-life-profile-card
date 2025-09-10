@@ -45,3 +45,14 @@
       transition: transform 140ms ease, box-shadow 140ms ease, filter 140ms ease;
       -webkit-tap-highlight-color: transparent;
     }
+  
+    /* effect bij het klikken */
+    .about-pill:active {
+      transform: translateY(0);
+      box-shadow:
+        0 4px 10px rgba(0,0,0,0.10),
+        inset 0 2px 4px rgba(0,0,0,0.08);
+    }
+
+  </style>
+  
