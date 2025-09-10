@@ -19,3 +19,8 @@
   >
     {label}
   </button>
+  <style>
+    .about-pill {
+      
+      padding: 0.6rem 1.8rem;
+      border-radius: 9999px;
