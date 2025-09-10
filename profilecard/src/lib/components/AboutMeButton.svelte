@@ -11,3 +11,11 @@
     >
   </svelte:head>
   
+  <button
+    class="about-pill"
+    {type}
+    aria-label={label}
+    on:click={() => onClick && onClick()}
+  >
+    {label}
+  </button>
