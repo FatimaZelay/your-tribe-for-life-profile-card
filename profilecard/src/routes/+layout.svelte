@@ -5,7 +5,8 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={favicon}/>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
 </svelte:head>
 
 {@render children?.()}
