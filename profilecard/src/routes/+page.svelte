@@ -29,11 +29,11 @@
     }
     
     .camera {
-    max-width: 990px;
-    height: auto;
-    border-radius: 12px;
-}
-
-
+      display: block;
+      max-width: 80%;
+      height: auto;
+      margin: 1rem auto;
+    }
   </style>
+  
   
