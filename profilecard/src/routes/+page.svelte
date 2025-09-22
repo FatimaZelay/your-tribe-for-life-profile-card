@@ -8,6 +8,12 @@
   </script>
   
   <main class="page">
+    <!-- Button -->
+    <AboutMeButton onClick={goToAbout} />
+  
+    <div class="camera-wrapper">
+      <img src="/digitalcamera.png" alt="Camera" class="camera" />
+    </div>
   </main>
   
   <style>
