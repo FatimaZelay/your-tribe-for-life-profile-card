@@ -1,9 +1,14 @@
 <script>
     import AboutMeButton from '$lib/components/AboutMeButton.svelte';
 
+    import { goto } from '$app/navigation';
+  
     const goToAbout = () => {
     console.log("Go to about page");
   };
+      goto('/aboutme');   // dit navigeert naar aboutme pagina
+    };
+  </script>
   
 </script>
   <main class="page">
