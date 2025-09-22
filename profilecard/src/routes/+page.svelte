@@ -1,28 +1,16 @@
 <script>
     import AboutMeButton from '$lib/components/AboutMeButton.svelte';
-
     import { goto } from '$app/navigation';
   
     const goToAbout = () => {
-    console.log("Go to about page");
-  };
       goto('/aboutme');   // dit navigeert naar aboutme pagina
     };
   </script>
   
-</script>
   <main class="page">
-   <!-- Button -->
-   <AboutMeButton onClick={goToAbout} />
-
-   <div class="camera-wrapper">
-       <img src="/digitalcamera.png" alt="Camera" class="camera" />
-     </div>
-
   </main>
   
   <style>
-    
     .page {
       min-height: 100vh;
       display: flex;
