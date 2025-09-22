@@ -14,3 +14,12 @@
       rel="stylesheet"
     >
   </svelte:head>
+  
+  <button
+    class="about-pill"
+    {type}
+    aria-label={label}
+    on:click={goHome}
+  >
+    {label}
+  </button>
