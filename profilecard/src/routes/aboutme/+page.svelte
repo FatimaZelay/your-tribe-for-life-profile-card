@@ -5,6 +5,12 @@
     const member = data.member.data[0]; // Directus response zit in .data[0]
   </script>
   
+  <main class="about-page">
+    <HomeButton />
+  
+    <div class="profile">
+      <img src="/profile.png" alt="Profile" />
+  
       <h1 class="heading-center">{member.name}</h1>
       <p>{member.bio}</p>
   
